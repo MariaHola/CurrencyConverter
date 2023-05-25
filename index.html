@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Alloha walutomat.</title>
+    <script defer src="script.js"></script>
+    <link rel="icon" href="./images/icon.png">
+    <link href="css/style.css" rel="stylesheet">
+    <meta property="og:image" content="./images/share.png">
+    <meta property="og:title" content="Alloha, currency converter">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+
+</head>
+
+<body class="body">
+    <form class="js-form form">
+        <fieldset class="form form__fieldset">
+            <legend class="form__legend">MAŁY KALKULATOR PLN ➡ EUR</legend>
+            <p>
+                <label>
+                    <span class="form__labelNumber">Wartość w PLN :</span>
+                    <input name="amountPln" class="js-pln form__field" type="number" step="0.01">
+                </label>
+            </p>
+            <p>Dostaniesz: <strong class="js-result"></strong> EURO</p>
+        <button type="submit" class="form form__button">Oblicz</button>
+        <button type="reset" class="form form__button js-reset">Wyczyść</button>
+        </fieldset>
+        
+    </form>
+</body>
+
+</html>
