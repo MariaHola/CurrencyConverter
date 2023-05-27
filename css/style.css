@@ -21,3 +21,11 @@ html {
         position: center;
     }
 }
+
+.body__footer {
+    text-align: center;
+    width: 100%;
+    background-color: hsl(0, 2%, 11%);
+    color: hsl(208, 100%, 97%);
+    padding: 10px;
+}
